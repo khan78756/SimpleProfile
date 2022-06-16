@@ -4,10 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/activity_secondactivity.xml" value="0.264" />
+        <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/fragment_firstfragment.xml" value="0.2" />
         <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/fragment_homefragment.xml" value="0.264" />
         <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/fragment_notificationfragment.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/fragment_personalfragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/fragment_personfragment.xml" value="0.11302083333333333" />
+        <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/fragment_secondfragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/fragment_thirdfragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/menu/bottommenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidstudioProjects/bottomnavgiation/app/src/main/res/menu/nav_drawer_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
