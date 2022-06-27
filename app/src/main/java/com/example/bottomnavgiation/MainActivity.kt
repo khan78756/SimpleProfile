@@ -1,8 +1,10 @@
 package com.example.bottomnavgiation
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.navigation.NavHostController
 import androidx.navigation.findNavController
@@ -39,6 +41,21 @@ class MainActivity : AppCompatActivity() {
         binding.drawerlayout.addDrawerListener(toggle)
         toggle.syncState()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+
+        //licklisner on Items
+
+        binding.drawer1.setNavigationItemSelectedListener {
+            when(it.itemId){
+                R.id.item1->
+                    Toast.makeText(applicationContext,"Clicked Item 1",Toast.LENGTH_LONG).show()
+                R.id.item2->
+                    Toast.makeText(applicationContext,"Clicked Item 2",Toast.LENGTH_LONG).show()
+                R.id.item3->
+                    Toast.makeText(applicationContext,"Clicked Item 3",Toast.LENGTH_LONG).show()
+            }
+            true
+        }
 
     }
 
